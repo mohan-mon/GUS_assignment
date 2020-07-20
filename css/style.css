@@ -1,0 +1,93 @@
+#open_timings {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 440px;
+  margin-left:20px;
+}
+
+#open_timings td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#open_timings tr:nth-child(even){background-color: #f2f2f2;}
+
+#open_timings tr:hover {background-color: #ddd;}
+
+#open_timings th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+// default styling
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+
+.card_wrapper {
+  display: block;
+  width: 460px;
+  
+ // display: flex;
+ //flex-flow: row wrap;
+  padding: 0 4px;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 6px;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+  margin: 15px;
+  text-align: center;
+  overflow: hidden;
+  
+  //flex: 25%;
+  width: 200px;
+  height: 300px;
+  //padding: 0 4px;
+  float:left;
+
+
+
+}
+
+.card_image {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card_title {
+  font-size: 18px;
+}
+
+.card_cta {
+  background-color: #eea;
+  color: #fff;
+}
